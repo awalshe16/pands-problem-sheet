@@ -3,7 +3,7 @@
 #minus sign, and the bank takes in the amount in cent, (944). 
 # Write a program called convert.py that takes in a float amount of dollars, and returns that
 #absolute amount in cent.
-#Surprised myself with this. initially absoluteamount result was 950.0000001, but I added int to make it a whole number and it worked!
+#Surprised myself with this. initially absoluteamount result was 950.0000001, but I added int to make it a whole number and it work
 numbertoconvert = float(input("enter input amount:"))
 absoluteamount = abs(int(numbertoconvert * 100))
 print ( '{} converted is {}'.format(numbertoconvert,absoluteamount))
